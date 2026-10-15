@@ -1,0 +1,3162 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:8eeaaea8-cb86-535d-a087-a0d7ef074878",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T12:47:38Z",
+  "component": {
+   "type": "application",
+   "name": "POSTHOG",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/POSTHOG@83b357604d34",
+   "purl": "pkg:generic/anticloud/POSTHOG@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "MIT"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "<contaminated-url-removed>"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "@base-ui/react",
+   "version": "catalog:",
+   "purl": "pkg:npm/@base-ui/react@catalog:",
+   "bom-ref": "npm/@base-ui/react@catalog:"
+  },
+  {
+   "type": "library",
+   "name": "@dagrejs/dagre",
+   "version": "^1.1.5",
+   "purl": "pkg:npm/@dagrejs/dagre@^1.1.5",
+   "bom-ref": "npm/@dagrejs/dagre@^1.1.5"
+  },
+  {
+   "type": "library",
+   "name": "@dnd-kit/core",
+   "version": "^6.0.8",
+   "purl": "pkg:npm/@dnd-kit/core@^6.0.8",
+   "bom-ref": "npm/@dnd-kit/core@^6.0.8"
+  },
+  {
+   "type": "library",
+   "name": "@dnd-kit/modifiers",
+   "version": "^6.0.1",
+   "purl": "pkg:npm/@dnd-kit/modifiers@^6.0.1",
+   "bom-ref": "npm/@dnd-kit/modifiers@^6.0.1"
+  },
+  {
+   "type": "library",
+   "name": "@dnd-kit/sortable",
+   "version": "^7.0.2",
+   "purl": "pkg:npm/@dnd-kit/sortable@^7.0.2",
+   "bom-ref": "npm/@dnd-kit/sortable@^7.0.2"
+  },
+  {
+   "type": "library",
+   "name": "@dnd-kit/utilities",
+   "version": "^3.2.1",
+   "purl": "pkg:npm/@dnd-kit/utilities@^3.2.1",
+   "bom-ref": "npm/@dnd-kit/utilities@^3.2.1"
+  },
+  {
+   "type": "library",
+   "name": "@elevenlabs/client",
+   "version": "^1.4.0",
+   "purl": "pkg:npm/@elevenlabs/client@^1.4.0",
+   "bom-ref": "npm/@elevenlabs/client@^1.4.0"
+  },
+  {
+   "type": "library",
+   "name": "@floating-ui/react",
+   "version": "^0.27.19",
+   "purl": "pkg:npm/@floating-ui/react@^0.27.19",
+   "bom-ref": "npm/@floating-ui/react@^0.27.19"
+  },
+  {
+   "type": "library",
+   "name": "@marsidev/react-turnstile",
+   "version": "^1.4.2",
+   "purl": "pkg:npm/@marsidev/react-turnstile@^1.4.2",
+   "bom-ref": "npm/@marsidev/react-turnstile@^1.4.2"
+  },
+  {
+   "type": "library",
+   "name": "@mathjax/src",
+   "version": "^4.1.2",
+   "purl": "pkg:npm/@mathjax/src@^4.1.2",
+   "bom-ref": "npm/@mathjax/src@^4.1.2"
+  },
+  {
+   "type": "library",
+   "name": "@memlab/lens",
+   "version": "2.0.0",
+   "purl": "pkg:npm/@memlab/lens@2.0.0",
+   "bom-ref": "npm/@memlab/lens@2.0.0"
+  },
+  {
+   "type": "library",
+   "name": "@microlink/react-json-view",
+   "version": "^1.31.18",
+   "purl": "pkg:npm/@microlink/react-json-view@^1.31.18",
+   "bom-ref": "npm/@microlink/react-json-view@^1.31.18"
+  },
+  {
+   "type": "library",
+   "name": "@microsoft/fetch-event-source",
+   "version": "^2.0.1",
+   "purl": "pkg:npm/@microsoft/fetch-event-source@^2.0.1",
+   "bom-ref": "npm/@microsoft/fetch-event-source@^2.0.1"
+  },
+  {
+   "type": "library",
+   "name": "@monaco-editor/react",
+   "version": "4.7.0",
+   "purl": "pkg:npm/@monaco-editor/react@4.7.0",
+   "bom-ref": "npm/@monaco-editor/react@4.7.0"
+  },
+  {
+   "type": "library",
+   "name": "@pierre/diffs",
+   "version": "1.2.11",
+   "purl": "pkg:npm/@pierre/diffs@1.2.11",
+   "bom-ref": "npm/@pierre/diffs@1.2.11"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/brand",
+   "version": "catalog:",
+   "purl": "pkg:npm/@posthog/brand@catalog:",
+   "bom-ref": "npm/@posthog/brand@catalog:"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/docs-onboarding",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/docs-onboarding@workspace:*",
+   "bom-ref": "npm/@posthog/docs-onboarding@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/esbuilder",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/esbuilder@workspace:*",
+   "bom-ref": "npm/@posthog/esbuilder@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/hedgehog-mode",
+   "version": "^0.0.60",
+   "purl": "pkg:npm/@posthog/hedgehog-mode@^0.0.60",
+   "bom-ref": "npm/@posthog/hedgehog-mode@^0.0.60"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/hogql-parser",
+   "version": "1.3.88",
+   "purl": "pkg:npm/@posthog/hogql-parser@1.3.88",
+   "bom-ref": "npm/@posthog/hogql-parser@1.3.88"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/hogvm",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/hogvm@workspace:*",
+   "bom-ref": "npm/@posthog/hogvm@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/icons",
+   "version": "catalog:",
+   "purl": "pkg:npm/@posthog/icons@catalog:",
+   "bom-ref": "npm/@posthog/icons@catalog:"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/llm-normalizer",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/llm-normalizer@workspace:*",
+   "bom-ref": "npm/@posthog/llm-normalizer@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-access-control",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-access-control@workspace:*",
+   "bom-ref": "npm/@posthog/products-access-control@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-actions",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-actions@workspace:*",
+   "bom-ref": "npm/@posthog/products-actions@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-ai-gateway",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-ai-gateway@workspace:*",
+   "bom-ref": "npm/@posthog/products-ai-gateway@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-ai-observability",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-ai-observability@workspace:*",
+   "bom-ref": "npm/@posthog/products-ai-observability@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-ai-training",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-ai-training@workspace:*",
+   "bom-ref": "npm/@posthog/products-ai-training@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-alerts",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-alerts@workspace:*",
+   "bom-ref": "npm/@posthog/products-alerts@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-alerts-platform",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-alerts-platform@workspace:*",
+   "bom-ref": "npm/@posthog/products-alerts-platform@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-analytics-platform",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-analytics-platform@workspace:*",
+   "bom-ref": "npm/@posthog/products-analytics-platform@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-annotations",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-annotations@workspace:*",
+   "bom-ref": "npm/@posthog/products-annotations@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-apm",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-apm@workspace:*",
+   "bom-ref": "npm/@posthog/products-apm@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-autoresearch",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-autoresearch@workspace:*",
+   "bom-ref": "npm/@posthog/products-autoresearch@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-batch-exports",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-batch-exports@workspace:*",
+   "bom-ref": "npm/@posthog/products-batch-exports@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-billing-alerts",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-billing-alerts@workspace:*",
+   "bom-ref": "npm/@posthog/products-billing-alerts@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-business-knowledge",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-business-knowledge@workspace:*",
+   "bom-ref": "npm/@posthog/products-business-knowledge@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-canvas",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-canvas@workspace:*",
+   "bom-ref": "npm/@posthog/products-canvas@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-cdp",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-cdp@workspace:*",
+   "bom-ref": "npm/@posthog/products-cdp@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-cohorts",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-cohorts@workspace:*",
+   "bom-ref": "npm/@posthog/products-cohorts@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-conversations",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-conversations@workspace:*",
+   "bom-ref": "npm/@posthog/products-conversations@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-customer-analytics",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-customer-analytics@workspace:*",
+   "bom-ref": "npm/@posthog/products-customer-analytics@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-dashboards",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-dashboards@workspace:*",
+   "bom-ref": "npm/@posthog/products-dashboards@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-data-catalog",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-data-catalog@workspace:*",
+   "bom-ref": "npm/@posthog/products-data-catalog@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-data-modeling",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-data-modeling@workspace:*",
+   "bom-ref": "npm/@posthog/products-data-modeling@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-data-quality",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-data-quality@workspace:*",
+   "bom-ref": "npm/@posthog/products-data-quality@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-data-tools",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-data-tools@workspace:*",
+   "bom-ref": "npm/@posthog/products-data-tools@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-data-warehouse",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-data-warehouse@workspace:*",
+   "bom-ref": "npm/@posthog/products-data-warehouse@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-early-access-features",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-early-access-features@workspace:*",
+   "bom-ref": "npm/@posthog/products-early-access-features@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-endpoints",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-endpoints@workspace:*",
+   "bom-ref": "npm/@posthog/products-endpoints@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-engineering-analytics",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-engineering-analytics@workspace:*",
+   "bom-ref": "npm/@posthog/products-engineering-analytics@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-error-tracking",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-error-tracking@workspace:*",
+   "bom-ref": "npm/@posthog/products-error-tracking@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-experiments",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-experiments@workspace:*",
+   "bom-ref": "npm/@posthog/products-experiments@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-exports",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-exports@workspace:*",
+   "bom-ref": "npm/@posthog/products-exports@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-feature-flags",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-feature-flags@workspace:*",
+   "bom-ref": "npm/@posthog/products-feature-flags@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-games",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-games@workspace:*",
+   "bom-ref": "npm/@posthog/products-games@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-groups",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-groups@workspace:*",
+   "bom-ref": "npm/@posthog/products-groups@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-growth",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-growth@workspace:*",
+   "bom-ref": "npm/@posthog/products-growth@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-legal-documents",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-legal-documents@workspace:*",
+   "bom-ref": "npm/@posthog/products-legal-documents@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-logs",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-logs@workspace:*",
+   "bom-ref": "npm/@posthog/products-logs@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-managed-migrations",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-managed-migrations@workspace:*",
+   "bom-ref": "npm/@posthog/products-managed-migrations@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-marketing-analytics",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-marketing-analytics@workspace:*",
+   "bom-ref": "npm/@posthog/products-marketing-analytics@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-mcp-analytics",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-mcp-analytics@workspace:*",
+   "bom-ref": "npm/@posthog/products-mcp-analytics@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-mcp-registry",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-mcp-registry@workspace:*",
+   "bom-ref": "npm/@posthog/products-mcp-registry@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-mcp-store",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-mcp-store@workspace:*",
+   "bom-ref": "npm/@posthog/products-mcp-store@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-messaging",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-messaging@workspace:*",
+   "bom-ref": "npm/@posthog/products-messaging@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-metrics",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-metrics@workspace:*",
+   "bom-ref": "npm/@posthog/products-metrics@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-ml-inference",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-ml-inference@workspace:*",
+   "bom-ref": "npm/@posthog/products-ml-inference@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-notebooks",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-notebooks@workspace:*",
+   "bom-ref": "npm/@posthog/products-notebooks@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-notifications",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-notifications@workspace:*",
+   "bom-ref": "npm/@posthog/products-notifications@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-persons",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-persons@workspace:*",
+   "bom-ref": "npm/@posthog/products-persons@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-platform-features",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-platform-features@workspace:*",
+   "bom-ref": "npm/@posthog/products-platform-features@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-posthog-ai",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-posthog-ai@workspace:*",
+   "bom-ref": "npm/@posthog/products-posthog-ai@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-product-analytics",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-product-analytics@workspace:*",
+   "bom-ref": "npm/@posthog/products-product-analytics@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-product-tours",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-product-tours@workspace:*",
+   "bom-ref": "npm/@posthog/products-product-tours@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-pulse",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-pulse@workspace:*",
+   "bom-ref": "npm/@posthog/products-pulse@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-replay",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-replay@workspace:*",
+   "bom-ref": "npm/@posthog/products-replay@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-replay-vision",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-replay-vision@workspace:*",
+   "bom-ref": "npm/@posthog/products-replay-vision@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-revenue-analytics",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-revenue-analytics@workspace:*",
+   "bom-ref": "npm/@posthog/products-revenue-analytics@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-review-hog",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-review-hog@workspace:*",
+   "bom-ref": "npm/@posthog/products-review-hog@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-security",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-security@workspace:*",
+   "bom-ref": "npm/@posthog/products-security@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-session-replay",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-session-replay@workspace:*",
+   "bom-ref": "npm/@posthog/products-session-replay@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-signals",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-signals@workspace:*",
+   "bom-ref": "npm/@posthog/products-signals@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-skills",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-skills@workspace:*",
+   "bom-ref": "npm/@posthog/products-skills@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-stamphog",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-stamphog@workspace:*",
+   "bom-ref": "npm/@posthog/products-stamphog@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-streamlit-apps",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-streamlit-apps@workspace:*",
+   "bom-ref": "npm/@posthog/products-streamlit-apps@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-subscriptions",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-subscriptions@workspace:*",
+   "bom-ref": "npm/@posthog/products-subscriptions@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-surveys",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-surveys@workspace:*",
+   "bom-ref": "npm/@posthog/products-surveys@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-tasks",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-tasks@workspace:*",
+   "bom-ref": "npm/@posthog/products-tasks@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-today",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-today@workspace:*",
+   "bom-ref": "npm/@posthog/products-today@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-tracing",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-tracing@workspace:*",
+   "bom-ref": "npm/@posthog/products-tracing@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-visual-review",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-visual-review@workspace:*",
+   "bom-ref": "npm/@posthog/products-visual-review@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-warehouse-sources",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-warehouse-sources@workspace:*",
+   "bom-ref": "npm/@posthog/products-warehouse-sources@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-web-analytics",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-web-analytics@workspace:*",
+   "bom-ref": "npm/@posthog/products-web-analytics@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-webmcp",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-webmcp@workspace:*",
+   "bom-ref": "npm/@posthog/products-webmcp@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-wizard",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-wizard@workspace:*",
+   "bom-ref": "npm/@posthog/products-wizard@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/products-workflows",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/products-workflows@workspace:*",
+   "bom-ref": "npm/@posthog/products-workflows@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/quill",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/quill@workspace:*",
+   "bom-ref": "npm/@posthog/quill@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/quill-charts",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/quill-charts@workspace:*",
+   "bom-ref": "npm/@posthog/quill-charts@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/quill-components",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/quill-components@workspace:*",
+   "bom-ref": "npm/@posthog/quill-components@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/react",
+   "version": "catalog:",
+   "purl": "pkg:npm/@posthog/react@catalog:",
+   "bom-ref": "npm/@posthog/react@catalog:"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/replay-shared",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/replay-shared@workspace:*",
+   "bom-ref": "npm/@posthog/replay-shared@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/tailwind",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/tailwind@workspace:*",
+   "bom-ref": "npm/@posthog/tailwind@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@protomaps/basemaps",
+   "version": "^5.7.2",
+   "purl": "pkg:npm/@protomaps/basemaps@^5.7.2",
+   "bom-ref": "npm/@protomaps/basemaps@^5.7.2"
+  },
+  {
+   "type": "library",
+   "name": "@radix-ui/react-accordion",
+   "version": "^1.2.12",
+   "purl": "pkg:npm/@radix-ui/react-accordion@^1.2.12",
+   "bom-ref": "npm/@radix-ui/react-accordion@^1.2.12"
+  },
+  {
+   "type": "library",
+   "name": "@radix-ui/react-context-menu",
+   "version": "^2.2.16",
+   "purl": "pkg:npm/@radix-ui/react-context-menu@^2.2.16",
+   "bom-ref": "npm/@radix-ui/react-context-menu@^2.2.16"
+  },
+  {
+   "type": "library",
+   "name": "@radix-ui/react-dismissable-layer",
+   "version": "^1.1.11",
+   "purl": "pkg:npm/@radix-ui/react-dismissable-layer@^1.1.11",
+   "bom-ref": "npm/@radix-ui/react-dismissable-layer@^1.1.11"
+  },
+  {
+   "type": "library",
+   "name": "@radix-ui/react-dropdown-menu",
+   "version": "^2.1.16",
+   "purl": "pkg:npm/@radix-ui/react-dropdown-menu@^2.1.16",
+   "bom-ref": "npm/@radix-ui/react-dropdown-menu@^2.1.16"
+  },
+  {
+   "type": "library",
+   "name": "@radix-ui/react-hover-card",
+   "version": "^1.1.15",
+   "purl": "pkg:npm/@radix-ui/react-hover-card@^1.1.15",
+   "bom-ref": "npm/@radix-ui/react-hover-card@^1.1.15"
+  },
+  {
+   "type": "library",
+   "name": "@radix-ui/react-popover",
+   "version": "^1.1.15",
+   "purl": "pkg:npm/@radix-ui/react-popover@^1.1.15",
+   "bom-ref": "npm/@radix-ui/react-popover@^1.1.15"
+  },
+  {
+   "type": "library",
+   "name": "@radix-ui/react-select",
+   "version": "^2.2.6",
+   "purl": "pkg:npm/@radix-ui/react-select@^2.2.6",
+   "bom-ref": "npm/@radix-ui/react-select@^2.2.6"
+  },
+  {
+   "type": "library",
+   "name": "@radix-ui/react-slot",
+   "version": "^1.2.4",
+   "purl": "pkg:npm/@radix-ui/react-slot@^1.2.4",
+   "bom-ref": "npm/@radix-ui/react-slot@^1.2.4"
+  },
+  {
+   "type": "library",
+   "name": "@radix-ui/react-tabs",
+   "version": "^1.1.13",
+   "purl": "pkg:npm/@radix-ui/react-tabs@^1.1.13",
+   "bom-ref": "npm/@radix-ui/react-tabs@^1.1.13"
+  },
+  {
+   "type": "library",
+   "name": "@radix-ui/react-toggle-group",
+   "version": "^1.1.11",
+   "purl": "pkg:npm/@radix-ui/react-toggle-group@^1.1.11",
+   "bom-ref": "npm/@radix-ui/react-toggle-group@^1.1.11"
+  },
+  {
+   "type": "library",
+   "name": "@react-hook/size",
+   "version": "^2.1.2",
+   "purl": "pkg:npm/@react-hook/size@^2.1.2",
+   "bom-ref": "npm/@react-hook/size@^2.1.2"
+  },
+  {
+   "type": "library",
+   "name": "@simplewebauthn/browser",
+   "version": "^13.2.2",
+   "purl": "pkg:npm/@simplewebauthn/browser@^13.2.2",
+   "bom-ref": "npm/@simplewebauthn/browser@^13.2.2"
+  },
+  {
+   "type": "library",
+   "name": "@stripe/react-stripe-js",
+   "version": "^2.8.0",
+   "purl": "pkg:npm/@stripe/react-stripe-js@^2.8.0",
+   "bom-ref": "npm/@stripe/react-stripe-js@^2.8.0"
+  },
+  {
+   "type": "library",
+   "name": "@stripe/stripe-js",
+   "version": "^4.5.0",
+   "purl": "pkg:npm/@stripe/stripe-js@^4.5.0",
+   "bom-ref": "npm/@stripe/stripe-js@^4.5.0"
+  },
+  {
+   "type": "library",
+   "name": "@tanstack/react-virtual",
+   "version": "^3.14.3",
+   "purl": "pkg:npm/@tanstack/react-virtual@^3.14.3",
+   "bom-ref": "npm/@tanstack/react-virtual@^3.14.3"
+  },
+  {
+   "type": "library",
+   "name": "@testing-library/dom",
+   "version": ">=9.3.4",
+   "purl": "pkg:npm/@testing-library/dom@>=9.3.4",
+   "bom-ref": "npm/@testing-library/dom@>=9.3.4"
+  },
+  {
+   "type": "library",
+   "name": "@tiptap/core",
+   "version": "3.20.6",
+   "purl": "pkg:npm/@tiptap/core@3.20.6",
+   "bom-ref": "npm/@tiptap/core@3.20.6"
+  },
+  {
+   "type": "library",
+   "name": "@tiptap/extension-code-block",
+   "version": "3.20.6",
+   "purl": "pkg:npm/@tiptap/extension-code-block@3.20.6",
+   "bom-ref": "npm/@tiptap/extension-code-block@3.20.6"
+  },
+  {
+   "type": "library",
+   "name": "@tiptap/extension-code-block-lowlight",
+   "version": "3.20.6",
+   "purl": "pkg:npm/@tiptap/extension-code-block-lowlight@3.20.6",
+   "bom-ref": "npm/@tiptap/extension-code-block-lowlight@3.20.6"
+  },
+  {
+   "type": "library",
+   "name": "@tiptap/extension-color",
+   "version": "3.20.6",
+   "purl": "pkg:npm/@tiptap/extension-color@3.20.6",
+   "bom-ref": "npm/@tiptap/extension-color@3.20.6"
+  },
+  {
+   "type": "library",
+   "name": "@tiptap/extension-document",
+   "version": "3.20.6",
+   "purl": "pkg:npm/@tiptap/extension-document@3.20.6",
+   "bom-ref": "npm/@tiptap/extension-document@3.20.6"
+  },
+  {
+   "type": "library",
+   "name": "@tiptap/extension-image",
+   "version": "3.20.6",
+   "purl": "pkg:npm/@tiptap/extension-image@3.20.6",
+   "bom-ref": "npm/@tiptap/extension-image@3.20.6"
+  },
+  {
+   "type": "library",
+   "name": "@tiptap/extension-link",
+   "version": "3.20.6",
+   "purl": "pkg:npm/@tiptap/extension-link@3.20.6",
+   "bom-ref": "npm/@tiptap/extension-link@3.20.6"
+  },
+  {
+   "type": "library",
+   "name": "@tiptap/extension-list",
+   "version": "3.20.6",
+   "purl": "pkg:npm/@tiptap/extension-list@3.20.6",
+   "bom-ref": "npm/@tiptap/extension-list@3.20.6"
+  },
+  {
+   "type": "library",
+   "name": "@tiptap/extension-placeholder",
+   "version": "3.20.6",
+   "purl": "pkg:npm/@tiptap/extension-placeholder@3.20.6",
+   "bom-ref": "npm/@tiptap/extension-placeholder@3.20.6"
+  },
+  {
+   "type": "library",
+   "name": "@tiptap/extension-table",
+   "version": "3.20.6",
+   "purl": "pkg:npm/@tiptap/extension-table@3.20.6",
+   "bom-ref": "npm/@tiptap/extension-table@3.20.6"
+  },
+  {
+   "type": "library",
+   "name": "@tiptap/extension-text-align",
+   "version": "3.20.6",
+   "purl": "pkg:npm/@tiptap/extension-text-align@3.20.6",
+   "bom-ref": "npm/@tiptap/extension-text-align@3.20.6"
+  },
+  {
+   "type": "library",
+   "name": "@tiptap/extension-text-style",
+   "version": "3.20.6",
+   "purl": "pkg:npm/@tiptap/extension-text-style@3.20.6",
+   "bom-ref": "npm/@tiptap/extension-text-style@3.20.6"
+  },
+  {
+   "type": "library",
+   "name": "@tiptap/extension-underline",
+   "version": "3.20.6",
+   "purl": "pkg:npm/@tiptap/extension-underline@3.20.6",
+   "bom-ref": "npm/@tiptap/extension-underline@3.20.6"
+  },
+  {
+   "type": "library",
+   "name": "@tiptap/extensions",
+   "version": "3.20.6",
+   "purl": "pkg:npm/@tiptap/extensions@3.20.6",
+   "bom-ref": "npm/@tiptap/extensions@3.20.6"
+  },
+  {
+   "type": "library",
+   "name": "@tiptap/html",
+   "version": "3.20.6",
+   "purl": "pkg:npm/@tiptap/html@3.20.6",
+   "bom-ref": "npm/@tiptap/html@3.20.6"
+  },
+  {
+   "type": "library",
+   "name": "@tiptap/markdown",
+   "version": "3.20.6",
+   "purl": "pkg:npm/@tiptap/markdown@3.20.6",
+   "bom-ref": "npm/@tiptap/markdown@3.20.6"
+  },
+  {
+   "type": "library",
+   "name": "@tiptap/pm",
+   "version": "3.20.6",
+   "purl": "pkg:npm/@tiptap/pm@3.20.6",
+   "bom-ref": "npm/@tiptap/pm@3.20.6"
+  },
+  {
+   "type": "library",
+   "name": "@tiptap/react",
+   "version": "3.20.6",
+   "purl": "pkg:npm/@tiptap/react@3.20.6",
+   "bom-ref": "npm/@tiptap/react@3.20.6"
+  },
+  {
+   "type": "library",
+   "name": "@tiptap/starter-kit",
+   "version": "3.20.6",
+   "purl": "pkg:npm/@tiptap/starter-kit@3.20.6",
+   "bom-ref": "npm/@tiptap/starter-kit@3.20.6"
+  },
+  {
+   "type": "library",
+   "name": "@tiptap/suggestion",
+   "version": "3.20.6",
+   "purl": "pkg:npm/@tiptap/suggestion@3.20.6",
+   "bom-ref": "npm/@tiptap/suggestion@3.20.6"
+  },
+  {
+   "type": "library",
+   "name": "@vitejs/plugin-react",
+   "version": "catalog:",
+   "purl": "pkg:npm/@vitejs/plugin-react@catalog:",
+   "bom-ref": "npm/@vitejs/plugin-react@catalog:"
+  },
+  {
+   "type": "library",
+   "name": "@xterm/addon-fit",
+   "version": "0.10.0",
+   "purl": "pkg:npm/@xterm/addon-fit@0.10.0",
+   "bom-ref": "npm/@xterm/addon-fit@0.10.0"
+  },
+  {
+   "type": "library",
+   "name": "@xterm/addon-webgl",
+   "version": "0.18.0",
+   "purl": "pkg:npm/@xterm/addon-webgl@0.18.0",
+   "bom-ref": "npm/@xterm/addon-webgl@0.18.0"
+  },
+  {
+   "type": "library",
+   "name": "@xterm/xterm",
+   "version": "5.5.0",
+   "purl": "pkg:npm/@xterm/xterm@5.5.0",
+   "bom-ref": "npm/@xterm/xterm@5.5.0"
+  },
+  {
+   "type": "library",
+   "name": "@xyflow/react",
+   "version": "^12.6.0",
+   "purl": "pkg:npm/@xyflow/react@^12.6.0",
+   "bom-ref": "npm/@xyflow/react@^12.6.0"
+  },
+  {
+   "type": "library",
+   "name": "bloommx",
+   "version": "^1.0.3",
+   "purl": "pkg:npm/bloommx@^1.0.3",
+   "bom-ref": "npm/bloommx@^1.0.3"
+  },
+  {
+   "type": "library",
+   "name": "buffer",
+   "version": "^6.0.3",
+   "purl": "pkg:npm/buffer@^6.0.3",
+   "bom-ref": "npm/buffer@^6.0.3"
+  },
+  {
+   "type": "library",
+   "name": "clsx",
+   "version": "^2.1.1",
+   "purl": "pkg:npm/clsx@^2.1.1",
+   "bom-ref": "npm/clsx@^2.1.1"
+  },
+  {
+   "type": "library",
+   "name": "core-js",
+   "version": "^3.40.0",
+   "purl": "pkg:npm/core-js@^3.40.0",
+   "bom-ref": "npm/core-js@^3.40.0"
+  },
+  {
+   "type": "library",
+   "name": "country-flag-emoji-polyfill",
+   "version": "^0.1.8",
+   "purl": "pkg:npm/country-flag-emoji-polyfill@^0.1.8",
+   "bom-ref": "npm/country-flag-emoji-polyfill@^0.1.8"
+  },
+  {
+   "type": "library",
+   "name": "cron-parser",
+   "version": "^5.5.0",
+   "purl": "pkg:npm/cron-parser@^5.5.0",
+   "bom-ref": "npm/cron-parser@^5.5.0"
+  },
+  {
+   "type": "library",
+   "name": "cronstrue",
+   "version": "^3.14.0",
+   "purl": "pkg:npm/cronstrue@^3.14.0",
+   "bom-ref": "npm/cronstrue@^3.14.0"
+  },
+  {
+   "type": "library",
+   "name": "crypto-browserify",
+   "version": "^3.12.0",
+   "purl": "pkg:npm/crypto-browserify@^3.12.0",
+   "bom-ref": "npm/crypto-browserify@^3.12.0"
+  },
+  {
+   "type": "library",
+   "name": "cva",
+   "version": "1.0.0-beta.3",
+   "purl": "pkg:npm/cva@1.0.0-beta.3",
+   "bom-ref": "npm/cva@1.0.0-beta.3"
+  },
+  {
+   "type": "library",
+   "name": "d3",
+   "version": "^7.9.0",
+   "purl": "pkg:npm/d3@^7.9.0",
+   "bom-ref": "npm/d3@^7.9.0"
+  },
+  {
+   "type": "library",
+   "name": "d3-flame-graph",
+   "version": "^5.0.0",
+   "purl": "pkg:npm/d3-flame-graph@^5.0.0",
+   "bom-ref": "npm/d3-flame-graph@^5.0.0"
+  },
+  {
+   "type": "library",
+   "name": "dayjs",
+   "version": "1.11.11",
+   "purl": "pkg:npm/dayjs@1.11.11",
+   "bom-ref": "npm/dayjs@1.11.11"
+  },
+  {
+   "type": "library",
+   "name": "dompurify",
+   "version": "^3.4.0",
+   "purl": "pkg:npm/dompurify@^3.4.0",
+   "bom-ref": "npm/dompurify@^3.4.0"
+  },
+  {
+   "type": "library",
+   "name": "elkjs",
+   "version": "^0.10.0",
+   "purl": "pkg:npm/elkjs@^0.10.0",
+   "bom-ref": "npm/elkjs@^0.10.0"
+  },
+  {
+   "type": "library",
+   "name": "emoji-regex",
+   "version": "^10.4.0",
+   "purl": "pkg:npm/emoji-regex@^10.4.0",
+   "bom-ref": "npm/emoji-regex@^10.4.0"
+  },
+  {
+   "type": "library",
+   "name": "emojibase-data",
+   "version": "17.0.0",
+   "purl": "pkg:npm/emojibase-data@17.0.0",
+   "bom-ref": "npm/emojibase-data@17.0.0"
+  },
+  {
+   "type": "library",
+   "name": "eventsource-parser",
+   "version": "^3.0.0",
+   "purl": "pkg:npm/eventsource-parser@^3.0.0",
+   "bom-ref": "npm/eventsource-parser@^3.0.0"
+  },
+  {
+   "type": "library",
+   "name": "fast-equals",
+   "version": "catalog:",
+   "purl": "pkg:npm/fast-equals@catalog:",
+   "bom-ref": "npm/fast-equals@catalog:"
+  },
+  {
+   "type": "library",
+   "name": "fastpriorityqueue",
+   "version": "^0.7.5",
+   "purl": "pkg:npm/fastpriorityqueue@^0.7.5",
+   "bom-ref": "npm/fastpriorityqueue@^0.7.5"
+  },
+  {
+   "type": "library",
+   "name": "fflate",
+   "version": "^0.8.2",
+   "purl": "pkg:npm/fflate@^0.8.2",
+   "bom-ref": "npm/fflate@^0.8.2"
+  },
+  {
+   "type": "library",
+   "name": "free-email-domains",
+   "version": "1.9.90",
+   "purl": "pkg:npm/free-email-domains@1.9.90",
+   "bom-ref": "npm/free-email-domains@1.9.90"
+  },
+  {
+   "type": "library",
+   "name": "frimousse",
+   "version": "^0.3.0",
+   "purl": "pkg:npm/frimousse@^0.3.0",
+   "bom-ref": "npm/frimousse@^0.3.0"
+  },
+  {
+   "type": "library",
+   "name": "fuse.js",
+   "version": "catalog:",
+   "purl": "pkg:npm/fuse.js@catalog:",
+   "bom-ref": "npm/fuse.js@catalog:"
+  },
+  {
+   "type": "library",
+   "name": "hast-util-to-html",
+   "version": "^9.0.5",
+   "purl": "pkg:npm/hast-util-to-html@^9.0.5",
+   "bom-ref": "npm/hast-util-to-html@^9.0.5"
+  },
+  {
+   "type": "library",
+   "name": "he",
+   "version": "^1.2.0",
+   "purl": "pkg:npm/he@^1.2.0",
+   "bom-ref": "npm/he@^1.2.0"
+  },
+  {
+   "type": "library",
+   "name": "heatmap.js",
+   "version": "^2.0.5",
+   "purl": "pkg:npm/heatmap.js@^2.0.5",
+   "bom-ref": "npm/heatmap.js@^2.0.5"
+  },
+  {
+   "type": "library",
+   "name": "highlight.js",
+   "version": "~11.11.0",
+   "purl": "pkg:npm/highlight.js@~11.11.0",
+   "bom-ref": "npm/highlight.js@~11.11.0"
+  },
+  {
+   "type": "library",
+   "name": "hls.js",
+   "version": "^1.5.15",
+   "purl": "pkg:npm/hls.js@^1.5.15",
+   "bom-ref": "npm/hls.js@^1.5.15"
+  },
+  {
+   "type": "library",
+   "name": "html-to-image",
+   "version": "^1.11.13",
+   "purl": "pkg:npm/html-to-image@^1.11.13",
+   "bom-ref": "npm/html-to-image@^1.11.13"
+  },
+  {
+   "type": "library",
+   "name": "husky",
+   "version": "catalog:",
+   "purl": "pkg:npm/husky@catalog:",
+   "bom-ref": "npm/husky@catalog:"
+  },
+  {
+   "type": "library",
+   "name": "image-blob-reduce",
+   "version": "^4.1.0",
+   "purl": "pkg:npm/image-blob-reduce@^4.1.0",
+   "bom-ref": "npm/image-blob-reduce@^4.1.0"
+  },
+  {
+   "type": "library",
+   "name": "kea",
+   "version": "catalog:",
+   "purl": "pkg:npm/kea@catalog:",
+   "bom-ref": "npm/kea@catalog:"
+  },
+  {
+   "type": "library",
+   "name": "kea-disposables",
+   "version": "catalog:",
+   "purl": "pkg:npm/kea-disposables@catalog:",
+   "bom-ref": "npm/kea-disposables@catalog:"
+  },
+  {
+   "type": "library",
+   "name": "kea-forms",
+   "version": "catalog:",
+   "purl": "pkg:npm/kea-forms@catalog:",
+   "bom-ref": "npm/kea-forms@catalog:"
+  },
+  {
+   "type": "library",
+   "name": "kea-loaders",
+   "version": "catalog:",
+   "purl": "pkg:npm/kea-loaders@catalog:",
+   "bom-ref": "npm/kea-loaders@catalog:"
+  },
+  {
+   "type": "library",
+   "name": "kea-localstorage",
+   "version": "catalog:",
+   "purl": "pkg:npm/kea-localstorage@catalog:",
+   "bom-ref": "npm/kea-localstorage@catalog:"
+  },
+  {
+   "type": "library",
+   "name": "kea-router",
+   "version": "catalog:",
+   "purl": "pkg:npm/kea-router@catalog:",
+   "bom-ref": "npm/kea-router@catalog:"
+  },
+  {
+   "type": "library",
+   "name": "kea-subscriptions",
+   "version": "catalog:",
+   "purl": "pkg:npm/kea-subscriptions@catalog:",
+   "bom-ref": "npm/kea-subscriptions@catalog:"
+  },
+  {
+   "type": "library",
+   "name": "kea-test-utils",
+   "version": "catalog:",
+   "purl": "pkg:npm/kea-test-utils@catalog:",
+   "bom-ref": "npm/kea-test-utils@catalog:"
+  },
+  {
+   "type": "library",
+   "name": "kea-waitfor",
+   "version": "catalog:",
+   "purl": "pkg:npm/kea-waitfor@catalog:",
+   "bom-ref": "npm/kea-waitfor@catalog:"
+  },
+  {
+   "type": "library",
+   "name": "kea-window-values",
+   "version": "catalog:",
+   "purl": "pkg:npm/kea-window-values@catalog:",
+   "bom-ref": "npm/kea-window-values@catalog:"
+  },
+  {
+   "type": "library",
+   "name": "liquidjs",
+   "version": "^10.27.0",
+   "purl": "pkg:npm/liquidjs@^10.27.0",
+   "bom-ref": "npm/liquidjs@^10.27.0"
+  },
+  {
+   "type": "library",
+   "name": "lodash.difference",
+   "version": "^4.5.0",
+   "purl": "pkg:npm/lodash.difference@^4.5.0",
+   "bom-ref": "npm/lodash.difference@^4.5.0"
+  },
+  {
+   "type": "library",
+   "name": "lodash.merge",
+   "version": "^4.6.2",
+   "purl": "pkg:npm/lodash.merge@^4.6.2",
+   "bom-ref": "npm/lodash.merge@^4.6.2"
+  },
+  {
+   "type": "library",
+   "name": "lodash.sortby",
+   "version": "^4.7.0",
+   "purl": "pkg:npm/lodash.sortby@^4.7.0",
+   "bom-ref": "npm/lodash.sortby@^4.7.0"
+  },
+  {
+   "type": "library",
+   "name": "lodash.throttle",
+   "version": "^4.1.1",
+   "purl": "pkg:npm/lodash.throttle@^4.1.1",
+   "bom-ref": "npm/lodash.throttle@^4.1.1"
+  },
+  {
+   "type": "library",
+   "name": "lodash.uniqby",
+   "version": "^4.7.0",
+   "purl": "pkg:npm/lodash.uniqby@^4.7.0",
+   "bom-ref": "npm/lodash.uniqby@^4.7.0"
+  },
+  {
+   "type": "library",
+   "name": "lowlight",
+   "version": "^3.3.0",
+   "purl": "pkg:npm/lowlight@^3.3.0",
+   "bom-ref": "npm/lowlight@^3.3.0"
+  },
+  {
+   "type": "library",
+   "name": "maplibre-gl",
+   "version": "^3.5.1",
+   "purl": "pkg:npm/maplibre-gl@^3.5.1",
+   "bom-ref": "npm/maplibre-gl@^3.5.1"
+  },
+  {
+   "type": "library",
+   "name": "marked",
+   "version": "^17.0.4",
+   "purl": "pkg:npm/marked@^17.0.4",
+   "bom-ref": "npm/marked@^17.0.4"
+  },
+  {
+   "type": "library",
+   "name": "md5",
+   "version": "^2.3.0",
+   "purl": "pkg:npm/md5@^2.3.0",
+   "bom-ref": "npm/md5@^2.3.0"
+  },
+  {
+   "type": "library",
+   "name": "mdast-util-find-and-replace",
+   "version": "^3.0.2",
+   "purl": "pkg:npm/mdast-util-find-and-replace@^3.0.2",
+   "bom-ref": "npm/mdast-util-find-and-replace@^3.0.2"
+  },
+  {
+   "type": "library",
+   "name": "mdast-util-from-markdown",
+   "version": "^2.0.3",
+   "purl": "pkg:npm/mdast-util-from-markdown@^2.0.3",
+   "bom-ref": "npm/mdast-util-from-markdown@^2.0.3"
+  },
+  {
+   "type": "library",
+   "name": "mdast-util-gfm-table",
+   "version": "^2.0.0",
+   "purl": "pkg:npm/mdast-util-gfm-table@^2.0.0",
+   "bom-ref": "npm/mdast-util-gfm-table@^2.0.0"
+  },
+  {
+   "type": "library",
+   "name": "mermaid",
+   "version": "^11.15.0",
+   "purl": "pkg:npm/mermaid@^11.15.0",
+   "bom-ref": "npm/mermaid@^11.15.0"
+  },
+  {
+   "type": "library",
+   "name": "micromark-extension-gfm-table",
+   "version": "^2.1.1",
+   "purl": "pkg:npm/micromark-extension-gfm-table@^2.1.1",
+   "bom-ref": "npm/micromark-extension-gfm-table@^2.1.1"
+  },
+  {
+   "type": "library",
+   "name": "monaco-editor",
+   "version": "^0.55.1",
+   "purl": "pkg:npm/monaco-editor@^0.55.1",
+   "bom-ref": "npm/monaco-editor@^0.55.1"
+  },
+  {
+   "type": "library",
+   "name": "monaco-vim",
+   "version": "^0.4.4",
+   "purl": "pkg:npm/monaco-vim@^0.4.4",
+   "bom-ref": "npm/monaco-vim@^0.4.4"
+  },
+  {
+   "type": "library",
+   "name": "motion",
+   "version": "^12.26.1",
+   "purl": "pkg:npm/motion@^12.26.1",
+   "bom-ref": "npm/motion@^12.26.1"
+  },
+  {
+   "type": "library",
+   "name": "natural-orderby",
+   "version": "^3.0.2",
+   "purl": "pkg:npm/natural-orderby@^3.0.2",
+   "bom-ref": "npm/natural-orderby@^3.0.2"
+  },
+  {
+   "type": "library",
+   "name": "oxfmt",
+   "version": "catalog:",
+   "purl": "pkg:npm/oxfmt@catalog:",
+   "bom-ref": "npm/oxfmt@catalog:"
+  },
+  {
+   "type": "library",
+   "name": "papaparse",
+   "version": "^5.4.1",
+   "purl": "pkg:npm/papaparse@^5.4.1",
+   "bom-ref": "npm/papaparse@^5.4.1"
+  },
+  {
+   "type": "library",
+   "name": "pmtiles",
+   "version": "^2.11.0",
+   "purl": "pkg:npm/pmtiles@^2.11.0",
+   "bom-ref": "npm/pmtiles@^2.11.0"
+  },
+  {
+   "type": "library",
+   "name": "posthog-js",
+   "version": "catalog:",
+   "purl": "pkg:npm/posthog-js@catalog:",
+   "bom-ref": "npm/posthog-js@catalog:"
+  },
+  {
+   "type": "library",
+   "name": "query-selector-shadow-dom",
+   "version": "catalog:",
+   "purl": "pkg:npm/query-selector-shadow-dom@catalog:",
+   "bom-ref": "npm/query-selector-shadow-dom@catalog:"
+  },
+  {
+   "type": "library",
+   "name": "re2js",
+   "version": "^0.4.1",
+   "purl": "pkg:npm/re2js@^0.4.1",
+   "bom-ref": "npm/re2js@^0.4.1"
+  },
+  {
+   "type": "library",
+   "name": "react",
+   "version": "^18.3.1",
+   "purl": "pkg:npm/react@^18.3.1",
+   "bom-ref": "npm/react@^18.3.1"
+  },
+  {
+   "type": "library",
+   "name": "react-data-grid",
+   "version": "7.0.0-beta.47",
+   "purl": "pkg:npm/react-data-grid@7.0.0-beta.47",
+   "bom-ref": "npm/react-data-grid@7.0.0-beta.47"
+  },
+  {
+   "type": "library",
+   "name": "react-dom",
+   "version": "^18.3.1",
+   "purl": "pkg:npm/react-dom@^18.3.1",
+   "bom-ref": "npm/react-dom@^18.3.1"
+  },
+  {
+   "type": "library",
+   "name": "react-draggable",
+   "version": "^4.5.0",
+   "purl": "pkg:npm/react-draggable@^4.5.0",
+   "bom-ref": "npm/react-draggable@^4.5.0"
+  },
+  {
+   "type": "library",
+   "name": "react-email-editor",
+   "version": "^1.7.11",
+   "purl": "pkg:npm/react-email-editor@^1.7.11",
+   "bom-ref": "npm/react-email-editor@^1.7.11"
+  },
+  {
+   "type": "library",
+   "name": "react-grid-layout",
+   "version": "^2.2.4",
+   "purl": "pkg:npm/react-grid-layout@^2.2.4",
+   "bom-ref": "npm/react-grid-layout@^2.2.4"
+  },
+  {
+   "type": "library",
+   "name": "react-intersection-observer",
+   "version": "^9.5.3",
+   "purl": "pkg:npm/react-intersection-observer@^9.5.3",
+   "bom-ref": "npm/react-intersection-observer@^9.5.3"
+  },
+  {
+   "type": "library",
+   "name": "react-markdown",
+   "version": "^9.0.0",
+   "purl": "pkg:npm/react-markdown@^9.0.0",
+   "bom-ref": "npm/react-markdown@^9.0.0"
+  },
+  {
+   "type": "library",
+   "name": "react-modal",
+   "version": "^3.15.1",
+   "purl": "pkg:npm/react-modal@^3.15.1",
+   "bom-ref": "npm/react-modal@^3.15.1"
+  },
+  {
+   "type": "library",
+   "name": "react-shadow",
+   "version": "^20.3.0",
+   "purl": "pkg:npm/react-shadow@^20.3.0",
+   "bom-ref": "npm/react-shadow@^20.3.0"
+  },
+  {
+   "type": "library",
+   "name": "react-simple-maps",
+   "version": "^3.0.0",
+   "purl": "pkg:npm/react-simple-maps@^3.0.0",
+   "bom-ref": "npm/react-simple-maps@^3.0.0"
+  },
+  {
+   "type": "library",
+   "name": "react-textarea-autosize",
+   "version": "^8.3.3",
+   "purl": "pkg:npm/react-textarea-autosize@^8.3.3",
+   "bom-ref": "npm/react-textarea-autosize@^8.3.3"
+  },
+  {
+   "type": "library",
+   "name": "react-toastify",
+   "version": "^10.0.0",
+   "purl": "pkg:npm/react-toastify@^10.0.0",
+   "bom-ref": "npm/react-toastify@^10.0.0"
+  },
+  {
+   "type": "library",
+   "name": "react-virtualized-auto-sizer",
+   "version": "^2.0.2",
+   "purl": "pkg:npm/react-virtualized-auto-sizer@^2.0.2",
+   "bom-ref": "npm/react-virtualized-auto-sizer@^2.0.2"
+  },
+  {
+   "type": "library",
+   "name": "react-window",
+   "version": "^2.2.5",
+   "purl": "pkg:npm/react-window@^2.2.5",
+   "bom-ref": "npm/react-window@^2.2.5"
+  },
+  {
+   "type": "library",
+   "name": "remark-breaks",
+   "version": "^4.0.0",
+   "purl": "pkg:npm/remark-breaks@^4.0.0",
+   "bom-ref": "npm/remark-breaks@^4.0.0"
+  },
+  {
+   "type": "library",
+   "name": "remark-gfm",
+   "version": "^4.0.0",
+   "purl": "pkg:npm/remark-gfm@^4.0.0",
+   "bom-ref": "npm/remark-gfm@^4.0.0"
+  },
+  {
+   "type": "library",
+   "name": "rough-notation",
+   "version": "^0.5.1",
+   "purl": "pkg:npm/rough-notation@^0.5.1",
+   "bom-ref": "npm/rough-notation@^0.5.1"
+  },
+  {
+   "type": "library",
+   "name": "rrule",
+   "version": "^2.8.1",
+   "purl": "pkg:npm/rrule@^2.8.1",
+   "bom-ref": "npm/rrule@^2.8.1"
+  },
+  {
+   "type": "library",
+   "name": "simple-statistics",
+   "version": "^7.8.8",
+   "purl": "pkg:npm/simple-statistics@^7.8.8",
+   "bom-ref": "npm/simple-statistics@^7.8.8"
+  },
+  {
+   "type": "library",
+   "name": "snappy-wasm",
+   "version": "^0.3.0",
+   "purl": "pkg:npm/snappy-wasm@^0.3.0",
+   "bom-ref": "npm/snappy-wasm@^0.3.0"
+  },
+  {
+   "type": "library",
+   "name": "tailwind-merge",
+   "version": "^2.2.2",
+   "purl": "pkg:npm/tailwind-merge@^2.2.2",
+   "bom-ref": "npm/tailwind-merge@^2.2.2"
+  },
+  {
+   "type": "library",
+   "name": "torph",
+   "version": "^0.0.9",
+   "purl": "pkg:npm/torph@^0.0.9",
+   "bom-ref": "npm/torph@^0.0.9"
+  },
+  {
+   "type": "library",
+   "name": "ts-pattern",
+   "version": "catalog:",
+   "purl": "pkg:npm/ts-pattern@catalog:",
+   "bom-ref": "npm/ts-pattern@catalog:"
+  },
+  {
+   "type": "library",
+   "name": "use-debounce",
+   "version": "catalog:",
+   "purl": "pkg:npm/use-debounce@catalog:",
+   "bom-ref": "npm/use-debounce@catalog:"
+  },
+  {
+   "type": "library",
+   "name": "use-resize-observer",
+   "version": "^8.0.0",
+   "purl": "pkg:npm/use-resize-observer@^8.0.0",
+   "bom-ref": "npm/use-resize-observer@^8.0.0"
+  },
+  {
+   "type": "library",
+   "name": "v86",
+   "version": "0.5.458",
+   "purl": "pkg:npm/v86@0.5.458",
+   "bom-ref": "npm/v86@0.5.458"
+  },
+  {
+   "type": "library",
+   "name": "zod",
+   "version": "^4.3.6",
+   "purl": "pkg:npm/zod@^4.3.6",
+   "bom-ref": "npm/zod@^4.3.6"
+  },
+  {
+   "type": "library",
+   "name": "zxcvbn",
+   "version": "^4.4.2",
+   "purl": "pkg:npm/zxcvbn@^4.4.2",
+   "bom-ref": "npm/zxcvbn@^4.4.2"
+  },
+  {
+   "type": "library",
+   "name": "@babel/parser",
+   "version": "^7.24.0",
+   "purl": "pkg:npm/@babel/parser@^7.24.0",
+   "bom-ref": "npm/@babel/parser@^7.24.0"
+  },
+  {
+   "type": "library",
+   "name": "@babel/traverse",
+   "version": "^7.24.0",
+   "purl": "pkg:npm/@babel/traverse@^7.24.0",
+   "bom-ref": "npm/@babel/traverse@^7.24.0"
+  },
+  {
+   "type": "library",
+   "name": "@parcel/packager-ts",
+   "version": "catalog:",
+   "purl": "pkg:npm/@parcel/packager-ts@catalog:",
+   "bom-ref": "npm/@parcel/packager-ts@catalog:"
+  },
+  {
+   "type": "library",
+   "name": "@parcel/transformer-typescript-types",
+   "version": "catalog:",
+   "purl": "pkg:npm/@parcel/transformer-typescript-types@catalog:",
+   "bom-ref": "npm/@parcel/transformer-typescript-types@catalog:"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/openapi-codegen",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/openapi-codegen@workspace:*",
+   "bom-ref": "npm/@posthog/openapi-codegen@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@storybook/react",
+   "version": "catalog:",
+   "purl": "pkg:npm/@storybook/react@catalog:",
+   "bom-ref": "npm/@storybook/react@catalog:"
+  },
+  {
+   "type": "library",
+   "name": "@sucrase/jest-plugin",
+   "version": "^3.0.0",
+   "purl": "pkg:npm/@sucrase/jest-plugin@^3.0.0",
+   "bom-ref": "npm/@sucrase/jest-plugin@^3.0.0"
+  },
+  {
+   "type": "library",
+   "name": "@tailwindcss/postcss",
+   "version": "4.3.0",
+   "purl": "pkg:npm/@tailwindcss/postcss@4.3.0",
+   "bom-ref": "npm/@tailwindcss/postcss@4.3.0"
+  },
+  {
+   "type": "library",
+   "name": "@tailwindcss/vite",
+   "version": "4.3.0",
+   "purl": "pkg:npm/@tailwindcss/vite@4.3.0",
+   "bom-ref": "npm/@tailwindcss/vite@4.3.0"
+  },
+  {
+   "type": "library",
+   "name": "@testing-library/jest-dom",
+   "version": "^5.17.0",
+   "purl": "pkg:npm/@testing-library/jest-dom@^5.17.0",
+   "bom-ref": "npm/@testing-library/jest-dom@^5.17.0"
+  },
+  {
+   "type": "library",
+   "name": "@testing-library/react",
+   "version": "^14.3.1",
+   "purl": "pkg:npm/@testing-library/react@^14.3.1",
+   "bom-ref": "npm/@testing-library/react@^14.3.1"
+  },
+  {
+   "type": "library",
+   "name": "@testing-library/user-event",
+   "version": "^14.6.1",
+   "purl": "pkg:npm/@testing-library/user-event@^14.6.1",
+   "bom-ref": "npm/@testing-library/user-event@^14.6.1"
+  },
+  {
+   "type": "library",
+   "name": "@types/clone",
+   "version": "^2.1.1",
+   "purl": "pkg:npm/@types/clone@^2.1.1",
+   "bom-ref": "npm/@types/clone@^2.1.1"
+  },
+  {
+   "type": "library",
+   "name": "@types/d3",
+   "version": "^7.4.3",
+   "purl": "pkg:npm/@types/d3@^7.4.3",
+   "bom-ref": "npm/@types/d3@^7.4.3"
+  },
+  {
+   "type": "library",
+   "name": "@types/d3-selection",
+   "version": "3.0.3",
+   "purl": "pkg:npm/@types/d3-selection@3.0.3",
+   "bom-ref": "npm/@types/d3-selection@3.0.3"
+  },
+  {
+   "type": "library",
+   "name": "@types/dompurify",
+   "version": "^3.0.3",
+   "purl": "pkg:npm/@types/dompurify@^3.0.3",
+   "bom-ref": "npm/@types/dompurify@^3.0.3"
+  },
+  {
+   "type": "library",
+   "name": "@types/he",
+   "version": "^1.2.3",
+   "purl": "pkg:npm/@types/he@^1.2.3",
+   "bom-ref": "npm/@types/he@^1.2.3"
+  },
+  {
+   "type": "library",
+   "name": "@types/heatmap.js",
+   "version": "^2.0.41",
+   "purl": "pkg:npm/@types/heatmap.js@^2.0.41",
+   "bom-ref": "npm/@types/heatmap.js@^2.0.41"
+  },
+  {
+   "type": "library",
+   "name": "@types/image-blob-reduce",
+   "version": "^4.1.1",
+   "purl": "pkg:npm/@types/image-blob-reduce@^4.1.1",
+   "bom-ref": "npm/@types/image-blob-reduce@^4.1.1"
+  },
+  {
+   "type": "library",
+   "name": "@types/jest",
+   "version": "catalog:",
+   "purl": "pkg:npm/@types/jest@catalog:",
+   "bom-ref": "npm/@types/jest@catalog:"
+  },
+  {
+   "type": "library",
+   "name": "@types/jest-image-snapshot",
+   "version": "^6.1.0",
+   "purl": "pkg:npm/@types/jest-image-snapshot@^6.1.0",
+   "bom-ref": "npm/@types/jest-image-snapshot@^6.1.0"
+  },
+  {
+   "type": "library",
+   "name": "@types/lodash.difference",
+   "version": "^4.5.9",
+   "purl": "pkg:npm/@types/lodash.difference@^4.5.9",
+   "bom-ref": "npm/@types/lodash.difference@^4.5.9"
+  },
+  {
+   "type": "library",
+   "name": "@types/lodash.merge",
+   "version": "^4.6.9",
+   "purl": "pkg:npm/@types/lodash.merge@^4.6.9",
+   "bom-ref": "npm/@types/lodash.merge@^4.6.9"
+  },
+  {
+   "type": "library",
+   "name": "@types/lodash.sortby",
+   "version": "^4.7.9",
+   "purl": "pkg:npm/@types/lodash.sortby@^4.7.9",
+   "bom-ref": "npm/@types/lodash.sortby@^4.7.9"
+  },
+  {
+   "type": "library",
+   "name": "@types/lodash.throttle",
+   "version": "^4.1.1",
+   "purl": "pkg:npm/@types/lodash.throttle@^4.1.1",
+   "bom-ref": "npm/@types/lodash.throttle@^4.1.1"
+  },
+  {
+   "type": "library",
+   "name": "@types/lodash.uniqby",
+   "version": "^4.7.9",
+   "purl": "pkg:npm/@types/lodash.uniqby@^4.7.9",
+   "bom-ref": "npm/@types/lodash.uniqby@^4.7.9"
+  },
+  {
+   "type": "library",
+   "name": "@types/md5",
+   "version": "^2.3.0",
+   "purl": "pkg:npm/@types/md5@^2.3.0",
+   "bom-ref": "npm/@types/md5@^2.3.0"
+  },
+  {
+   "type": "library",
+   "name": "@types/node",
+   "version": "catalog:",
+   "purl": "pkg:npm/@types/node@catalog:",
+   "bom-ref": "npm/@types/node@catalog:"
+  },
+  {
+   "type": "library",
+   "name": "@types/papaparse",
+   "version": "^5.3.8",
+   "purl": "pkg:npm/@types/papaparse@^5.3.8",
+   "bom-ref": "npm/@types/papaparse@^5.3.8"
+  },
+  {
+   "type": "library",
+   "name": "@types/query-selector-shadow-dom",
+   "version": "catalog:",
+   "purl": "pkg:npm/@types/query-selector-shadow-dom@catalog:",
+   "bom-ref": "npm/@types/query-selector-shadow-dom@catalog:"
+  },
+  {
+   "type": "library",
+   "name": "@types/react",
+   "version": "catalog:",
+   "purl": "pkg:npm/@types/react@catalog:",
+   "bom-ref": "npm/@types/react@catalog:"
+  },
+  {
+   "type": "library",
+   "name": "@types/react-dom",
+   "version": "catalog:",
+   "purl": "pkg:npm/@types/react-dom@catalog:",
+   "bom-ref": "npm/@types/react-dom@catalog:"
+  },
+  {
+   "type": "library",
+   "name": "@types/react-modal",
+   "version": "^3.13.1",
+   "purl": "pkg:npm/@types/react-modal@^3.13.1",
+   "bom-ref": "npm/@types/react-modal@^3.13.1"
+  },
+  {
+   "type": "library",
+   "name": "@types/react-simple-maps",
+   "version": "^3.0.6",
+   "purl": "pkg:npm/@types/react-simple-maps@^3.0.6",
+   "bom-ref": "npm/@types/react-simple-maps@^3.0.6"
+  },
+  {
+   "type": "library",
+   "name": "@types/testing-library__jest-dom",
+   "version": "^5.14.5",
+   "purl": "pkg:npm/@types/testing-library__jest-dom@^5.14.5",
+   "bom-ref": "npm/@types/testing-library__jest-dom@^5.14.5"
+  },
+  {
+   "type": "library",
+   "name": "@types/zxcvbn",
+   "version": "^4.4.0",
+   "purl": "pkg:npm/@types/zxcvbn@^4.4.0",
+   "bom-ref": "npm/@types/zxcvbn@^4.4.0"
+  },
+  {
+   "type": "library",
+   "name": "ajv",
+   "version": "^8.20.0",
+   "purl": "pkg:npm/ajv@^8.20.0",
+   "bom-ref": "npm/ajv@^8.20.0"
+  },
+  {
+   "type": "library",
+   "name": "caniuse-lite",
+   "version": "^1.0.30001689",
+   "purl": "pkg:npm/caniuse-lite@^1.0.30001689",
+   "bom-ref": "npm/caniuse-lite@^1.0.30001689"
+  },
+  {
+   "type": "library",
+   "name": "concurrently",
+   "version": "catalog:",
+   "purl": "pkg:npm/concurrently@catalog:",
+   "bom-ref": "npm/concurrently@catalog:"
+  },
+  {
+   "type": "library",
+   "name": "esbuild-visualizer",
+   "version": "^0.6.0",
+   "purl": "pkg:npm/esbuild-visualizer@^0.6.0",
+   "bom-ref": "npm/esbuild-visualizer@^0.6.0"
+  },
+  {
+   "type": "library",
+   "name": "fake-indexeddb",
+   "version": "^6.0.1",
+   "purl": "pkg:npm/fake-indexeddb@^6.0.1",
+   "bom-ref": "npm/fake-indexeddb@^6.0.1"
+  },
+  {
+   "type": "library",
+   "name": "fs-extra",
+   "version": "^10.0.0",
+   "purl": "pkg:npm/fs-extra@^10.0.0",
+   "bom-ref": "npm/fs-extra@^10.0.0"
+  },
+  {
+   "type": "library",
+   "name": "happy-dom",
+   "version": "^20.9.0",
+   "purl": "pkg:npm/happy-dom@^20.9.0",
+   "bom-ref": "npm/happy-dom@^20.9.0"
+  },
+  {
+   "type": "library",
+   "name": "history",
+   "version": "^5.0.1",
+   "purl": "pkg:npm/history@^5.0.1",
+   "bom-ref": "npm/history@^5.0.1"
+  },
+  {
+   "type": "library",
+   "name": "jest",
+   "version": "catalog:",
+   "purl": "pkg:npm/jest@catalog:",
+   "bom-ref": "npm/jest@catalog:"
+  },
+  {
+   "type": "library",
+   "name": "jest-canvas-mock",
+   "version": "^2.4.0",
+   "purl": "pkg:npm/jest-canvas-mock@^2.4.0",
+   "bom-ref": "npm/jest-canvas-mock@^2.4.0"
+  },
+  {
+   "type": "library",
+   "name": "jest-environment-jsdom",
+   "version": "^29.3.1",
+   "purl": "pkg:npm/jest-environment-jsdom@^29.3.1",
+   "bom-ref": "npm/jest-environment-jsdom@^29.3.1"
+  },
+  {
+   "type": "library",
+   "name": "jest-image-snapshot",
+   "version": "^6.1.0",
+   "purl": "pkg:npm/jest-image-snapshot@^6.1.0",
+   "bom-ref": "npm/jest-image-snapshot@^6.1.0"
+  },
+  {
+   "type": "library",
+   "name": "jest-junit",
+   "version": "^16.0.0",
+   "purl": "pkg:npm/jest-junit@^16.0.0",
+   "bom-ref": "npm/jest-junit@^16.0.0"
+  },
+  {
+   "type": "library",
+   "name": "kea-typegen",
+   "version": "3.8.3",
+   "purl": "pkg:npm/kea-typegen@3.8.3",
+   "bom-ref": "npm/kea-typegen@3.8.3"
+  },
+  {
+   "type": "library",
+   "name": "less",
+   "version": "^3.12.2",
+   "purl": "pkg:npm/less@^3.12.2",
+   "bom-ref": "npm/less@^3.12.2"
+  },
+  {
+   "type": "library",
+   "name": "lint-staged",
+   "version": "catalog:",
+   "purl": "pkg:npm/lint-staged@catalog:",
+   "bom-ref": "npm/lint-staged@catalog:"
+  },
+  {
+   "type": "library",
+   "name": "mockdate",
+   "version": "^3.0.5",
+   "purl": "pkg:npm/mockdate@^3.0.5",
+   "bom-ref": "npm/mockdate@^3.0.5"
+  },
+  {
+   "type": "library",
+   "name": "msw",
+   "version": "^2.14.6",
+   "purl": "pkg:npm/msw@^2.14.6",
+   "bom-ref": "npm/msw@^2.14.6"
+  },
+  {
+   "type": "library",
+   "name": "safe-stable-stringify",
+   "version": "^2.4.3",
+   "purl": "pkg:npm/safe-stable-stringify@^2.4.3",
+   "bom-ref": "npm/safe-stable-stringify@^2.4.3"
+  },
+  {
+   "type": "library",
+   "name": "sass",
+   "version": "^1.26.2",
+   "purl": "pkg:npm/sass@^1.26.2",
+   "bom-ref": "npm/sass@^1.26.2"
+  },
+  {
+   "type": "library",
+   "name": "storybook",
+   "version": "catalog:",
+   "purl": "pkg:npm/storybook@catalog:",
+   "bom-ref": "npm/storybook@catalog:"
+  },
+  {
+   "type": "library",
+   "name": "stream-browserify",
+   "version": "^3.0.0",
+   "purl": "pkg:npm/stream-browserify@^3.0.0",
+   "bom-ref": "npm/stream-browserify@^3.0.0"
+  },
+  {
+   "type": "library",
+   "name": "sucrase",
+   "version": "^3.29.0",
+   "purl": "pkg:npm/sucrase@^3.29.0",
+   "bom-ref": "npm/sucrase@^3.29.0"
+  },
+  {
+   "type": "library",
+   "name": "tailwindcss",
+   "version": "4.3.0",
+   "purl": "pkg:npm/tailwindcss@4.3.0",
+   "bom-ref": "npm/tailwindcss@4.3.0"
+  },
+  {
+   "type": "library",
+   "name": "timekeeper",
+   "version": "^2.2.0",
+   "purl": "pkg:npm/timekeeper@^2.2.0",
+   "bom-ref": "npm/timekeeper@^2.2.0"
+  },
+  {
+   "type": "library",
+   "name": "ts-clone-node",
+   "version": "^4.0.0",
+   "purl": "pkg:npm/ts-clone-node@^4.0.0",
+   "bom-ref": "npm/ts-clone-node@^4.0.0"
+  },
+  {
+   "type": "library",
+   "name": "ts-json-schema-generator",
+   "version": "v2.4.0-next.6",
+   "purl": "pkg:npm/ts-json-schema-generator@v2.4.0-next.6",
+   "bom-ref": "npm/ts-json-schema-generator@v2.4.0-next.6"
+  },
+  {
+   "type": "library",
+   "name": "ts-node",
+   "version": "^10.9.1",
+   "purl": "pkg:npm/ts-node@^10.9.1",
+   "bom-ref": "npm/ts-node@^10.9.1"
+  },
+  {
+   "type": "library",
+   "name": "tsconfig-paths",
+   "version": "^4.2.0",
+   "purl": "pkg:npm/tsconfig-paths@^4.2.0",
+   "bom-ref": "npm/tsconfig-paths@^4.2.0"
+  },
+  {
+   "type": "library",
+   "name": "typescript",
+   "version": "catalog:",
+   "purl": "pkg:npm/typescript@catalog:",
+   "bom-ref": "npm/typescript@catalog:"
+  },
+  {
+   "type": "library",
+   "name": "undici",
+   "version": "^6.25.0",
+   "purl": "pkg:npm/undici@^6.25.0",
+   "bom-ref": "npm/undici@^6.25.0"
+  },
+  {
+   "type": "library",
+   "name": "vite",
+   "version": "catalog:",
+   "purl": "pkg:npm/vite@catalog:",
+   "bom-ref": "npm/vite@catalog:"
+  },
+  {
+   "type": "library",
+   "name": "fsevents",
+   "version": "^2.3.2",
+   "purl": "pkg:npm/fsevents@^2.3.2",
+   "bom-ref": "npm/fsevents@^2.3.2"
+  },
+  {
+   "type": "library",
+   "name": "tsup",
+   "version": "^5.12.8",
+   "purl": "pkg:npm/tsup@^5.12.8",
+   "bom-ref": "npm/tsup@^5.12.8"
+  },
+  {
+   "type": "library",
+   "name": "@tailwindcss/container-queries",
+   "version": "0.1.1",
+   "purl": "pkg:npm/@tailwindcss/container-queries@0.1.1",
+   "bom-ref": "npm/@tailwindcss/container-queries@0.1.1"
+  },
+  {
+   "type": "library",
+   "name": "tailwindcss-scroll-mask",
+   "version": "^0.0.3",
+   "purl": "pkg:npm/tailwindcss-scroll-mask@^0.0.3",
+   "bom-ref": "npm/tailwindcss-scroll-mask@^0.0.3"
+  },
+  {
+   "type": "library",
+   "name": "@babel/runtime",
+   "version": "^7.26.10",
+   "purl": "pkg:npm/@babel/runtime@^7.26.10",
+   "bom-ref": "npm/@babel/runtime@^7.26.10"
+  },
+  {
+   "type": "library",
+   "name": "@jest/globals",
+   "version": "^30.0.5",
+   "purl": "pkg:npm/@jest/globals@^30.0.5",
+   "bom-ref": "npm/@jest/globals@^30.0.5"
+  },
+  {
+   "type": "library",
+   "name": "@jest/test-sequencer",
+   "version": "^30.0.5",
+   "purl": "pkg:npm/@jest/test-sequencer@^30.0.5",
+   "bom-ref": "npm/@jest/test-sequencer@^30.0.5"
+  },
+  {
+   "type": "library",
+   "name": "@posthog/frontend",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@posthog/frontend@workspace:*",
+   "bom-ref": "npm/@posthog/frontend@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@storybook/addon-a11y",
+   "version": "^10.4.3",
+   "purl": "pkg:npm/@storybook/addon-a11y@^10.4.3",
+   "bom-ref": "npm/@storybook/addon-a11y@^10.4.3"
+  },
+  {
+   "type": "library",
+   "name": "@storybook/addon-docs",
+   "version": "^10.4.3",
+   "purl": "pkg:npm/@storybook/addon-docs@^10.4.3",
+   "bom-ref": "npm/@storybook/addon-docs@^10.4.3"
+  },
+  {
+   "type": "library",
+   "name": "@storybook/addon-links",
+   "version": "^10.4.3",
+   "purl": "pkg:npm/@storybook/addon-links@^10.4.3",
+   "bom-ref": "npm/@storybook/addon-links@^10.4.3"
+  },
+  {
+   "type": "library",
+   "name": "@storybook/csf",
+   "version": "^0.1.12",
+   "purl": "pkg:npm/@storybook/csf@^0.1.12",
+   "bom-ref": "npm/@storybook/csf@^0.1.12"
+  },
+  {
+   "type": "library",
+   "name": "@storybook/react-vite",
+   "version": "catalog:",
+   "purl": "pkg:npm/@storybook/react-vite@catalog:",
+   "bom-ref": "npm/@storybook/react-vite@catalog:"
+  },
+  {
+   "type": "library",
+   "name": "@storybook/test-runner",
+   "version": "^0.24.4",
+   "purl": "pkg:npm/@storybook/test-runner@^0.24.4",
+   "bom-ref": "npm/@storybook/test-runner@^0.24.4"
+  },
+  {
+   "type": "library",
+   "name": "storybook-addon-pseudo-states",
+   "version": "^10.4.3",
+   "purl": "pkg:npm/storybook-addon-pseudo-states@^10.4.3",
+   "bom-ref": "npm/storybook-addon-pseudo-states@^10.4.3"
+  },
+  {
+   "type": "library",
+   "name": "@playwright/test",
+   "version": "catalog:",
+   "purl": "pkg:npm/@playwright/test@catalog:",
+   "bom-ref": "npm/@playwright/test@catalog:"
+  },
+  {
+   "type": "library",
+   "name": "http-server",
+   "version": "^14.1.1",
+   "purl": "pkg:npm/http-server@^14.1.1",
+   "bom-ref": "npm/http-server@^14.1.1"
+  },
+  {
+   "type": "library",
+   "name": "wait-on",
+   "version": "^7.2.0",
+   "purl": "pkg:npm/wait-on@^7.2.0",
+   "bom-ref": "npm/wait-on@^7.2.0"
+  },
+  {
+   "type": "library",
+   "name": "fzstd",
+   "version": "^0.1.1",
+   "purl": "pkg:npm/fzstd@^0.1.1",
+   "bom-ref": "npm/fzstd@^0.1.1"
+  },
+  {
+   "type": "library",
+   "name": "@swc/core",
+   "version": "^1.11.29",
+   "purl": "pkg:npm/@swc/core@^1.11.29",
+   "bom-ref": "npm/@swc/core@^1.11.29"
+  },
+  {
+   "type": "library",
+   "name": "@swc/jest",
+   "version": "^0.2.37",
+   "purl": "pkg:npm/@swc/jest@^0.2.37",
+   "bom-ref": "npm/@swc/jest@^0.2.37"
+  },
+  {
+   "type": "library",
+   "name": "p-limit",
+   "version": "3.1.0",
+   "purl": "pkg:npm/p-limit@3.1.0",
+   "bom-ref": "npm/p-limit@3.1.0"
+  },
+  {
+   "type": "library",
+   "name": "esbuild",
+   "version": "^0.25.11",
+   "purl": "pkg:npm/esbuild@^0.25.11",
+   "bom-ref": "npm/esbuild@^0.25.11"
+  },
+  {
+   "type": "library",
+   "name": "puppeteer",
+   "version": "19.0.0",
+   "purl": "pkg:npm/puppeteer@19.0.0",
+   "bom-ref": "npm/puppeteer@19.0.0"
+  },
+  {
+   "type": "library",
+   "name": "@babel/standalone",
+   "version": "^7.23.2",
+   "purl": "pkg:npm/@babel/standalone@^7.23.2",
+   "bom-ref": "npm/@babel/standalone@^7.23.2"
+  },
+  {
+   "type": "library",
+   "name": "@types/babel__standalone",
+   "version": "^7.1.6",
+   "purl": "pkg:npm/@types/babel__standalone@^7.1.6",
+   "bom-ref": "npm/@types/babel__standalone@^7.1.6"
+  },
+  {
+   "type": "library",
+   "name": "luxon",
+   "version": "^3.4.4",
+   "purl": "pkg:npm/luxon@^3.4.4",
+   "bom-ref": "npm/luxon@^3.4.4"
+  },
+  {
+   "type": "library",
+   "name": "@parcel/config-default",
+   "version": "2.16.4",
+   "purl": "pkg:npm/@parcel/config-default@2.16.4",
+   "bom-ref": "npm/@parcel/config-default@2.16.4"
+  },
+  {
+   "type": "library",
+   "name": "@parcel/transformer-js",
+   "version": "2.16.4",
+   "purl": "pkg:npm/@parcel/transformer-js@2.16.4",
+   "bom-ref": "npm/@parcel/transformer-js@2.16.4"
+  },
+  {
+   "type": "library",
+   "name": "@parcel/transformer-react-refresh-wrap",
+   "version": "2.16.4",
+   "purl": "pkg:npm/@parcel/transformer-react-refresh-wrap@2.16.4",
+   "bom-ref": "npm/@parcel/transformer-react-refresh-wrap@2.16.4"
+  },
+  {
+   "type": "library",
+   "name": "@swc-node/register",
+   "version": "^1.11.1",
+   "purl": "pkg:npm/@swc-node/register@^1.11.1",
+   "bom-ref": "npm/@swc-node/register@^1.11.1"
+  },
+  {
+   "type": "library",
+   "name": "@types/luxon",
+   "version": "^3.4.2",
+   "purl": "pkg:npm/@types/luxon@^3.4.2",
+   "bom-ref": "npm/@types/luxon@^3.4.2"
+  },
+  {
+   "type": "library",
+   "name": "parcel",
+   "version": "^2.16.4",
+   "purl": "pkg:npm/parcel@^2.16.4",
+   "bom-ref": "npm/parcel@^2.16.4"
+  },
+  {
+   "type": "library",
+   "name": "re2",
+   "version": "^1.24.1",
+   "purl": "pkg:npm/re2@^1.24.1",
+   "bom-ref": "npm/re2@^1.24.1"
+  },
+  {
+   "type": "library",
+   "name": "-std",
+   "version": "=c++20",
+   "purl": "pkg:pypi/-std@c++20",
+   "bom-ref": "pypi/-std@=c++20"
+  },
+  {
+   "type": "library",
+   "name": "autoprefixer",
+   "version": "^10.4.13",
+   "purl": "pkg:npm/autoprefixer@^10.4.13",
+   "bom-ref": "npm/autoprefixer@^10.4.13"
+  },
+  {
+   "type": "library",
+   "name": "chokidar",
+   "version": "^3.5.3",
+   "purl": "pkg:npm/chokidar@^3.5.3",
+   "bom-ref": "npm/chokidar@^3.5.3"
+  },
+  {
+   "type": "library",
+   "name": "cors",
+   "version": "^2.8.5",
+   "purl": "pkg:npm/cors@^2.8.5",
+   "bom-ref": "npm/cors@^2.8.5"
+  },
+  {
+   "type": "library",
+   "name": "cssnano",
+   "version": "^7.0.6",
+   "purl": "pkg:npm/cssnano@^7.0.6",
+   "bom-ref": "npm/cssnano@^7.0.6"
+  },
+  {
+   "type": "library",
+   "name": "esbuild-plugin-less",
+   "version": "^1.3.17",
+   "purl": "pkg:npm/esbuild-plugin-less@^1.3.17",
+   "bom-ref": "npm/esbuild-plugin-less@^1.3.17"
+  },
+  {
+   "type": "library",
+   "name": "esbuild-plugin-polyfill-node",
+   "version": "0.3.0",
+   "purl": "pkg:npm/esbuild-plugin-polyfill-node@0.3.0",
+   "bom-ref": "npm/esbuild-plugin-polyfill-node@0.3.0"
+  },
+  {
+   "type": "library",
+   "name": "esbuild-sass-plugin",
+   "version": "3.0.0",
+   "purl": "pkg:npm/esbuild-sass-plugin@3.0.0",
+   "bom-ref": "npm/esbuild-sass-plugin@3.0.0"
+  },
+  {
+   "type": "library",
+   "name": "express",
+   "version": "^4.22.2",
+   "purl": "pkg:npm/express@^4.22.2",
+   "bom-ref": "npm/express@^4.22.2"
+  },
+  {
+   "type": "library",
+   "name": "postcss",
+   "version": "^8.5.15",
+   "purl": "pkg:npm/postcss@^8.5.15",
+   "bom-ref": "npm/postcss@^8.5.15"
+  },
+  {
+   "type": "library",
+   "name": "postcss-preset-env",
+   "version": "^10.1.4",
+   "purl": "pkg:npm/postcss-preset-env@^10.1.4",
+   "bom-ref": "npm/postcss-preset-env@^10.1.4"
+  },
+  {
+   "type": "library",
+   "name": "github.com/klauspost/compress",
+   "version": "v1.19.1",
+   "purl": "pkg:golang/github.com/klauspost/compress@v1.19.1",
+   "bom-ref": "go/github.com/klauspost/compress@v1.19.1"
+  },
+  {
+   "type": "library",
+   "name": "github.com/pierrec/lz4/v4",
+   "version": "v4.1.27",
+   "purl": "pkg:golang/github.com/pierrec/lz4/v4@v4.1.27",
+   "bom-ref": "go/github.com/pierrec/lz4/v4@v4.1.27"
+  },
+  {
+   "type": "library",
+   "name": "github.com/stretchr/testify",
+   "version": "v1.11.1",
+   "purl": "pkg:golang/github.com/stretchr/testify@v1.11.1",
+   "bom-ref": "go/github.com/stretchr/testify@v1.11.1"
+  },
+  {
+   "type": "library",
+   "name": "github.com/valyala/fastjson",
+   "version": "v1.6.7",
+   "purl": "pkg:golang/github.com/valyala/fastjson@v1.6.7",
+   "bom-ref": "go/github.com/valyala/fastjson@v1.6.7"
+  },
+  {
+   "type": "library",
+   "name": "github.com/davecgh/go-spew",
+   "version": "v1.1.1",
+   "purl": "pkg:golang/github.com/davecgh/go-spew@v1.1.1",
+   "bom-ref": "go/github.com/davecgh/go-spew@v1.1.1"
+  },
+  {
+   "type": "library",
+   "name": "github.com/pmezard/go-difflib",
+   "version": "v1.0.0",
+   "purl": "pkg:golang/github.com/pmezard/go-difflib@v1.0.0",
+   "bom-ref": "go/github.com/pmezard/go-difflib@v1.0.0"
+  },
+  {
+   "type": "library",
+   "name": "gopkg.in/yaml.v3",
+   "version": "v3.0.1",
+   "purl": "pkg:golang/gopkg.in/yaml.v3@v3.0.1",
+   "bom-ref": "go/gopkg.in/yaml.v3@v3.0.1"
+  },
+  {
+   "type": "library",
+   "name": "resolver",
+   "version": "2",
+   "purl": "pkg:cargo/resolver@2",
+   "bom-ref": "cargo/resolver@2"
+  },
+  {
+   "type": "library",
+   "name": "name",
+   "version": "posthog-cli",
+   "purl": "pkg:cargo/name@posthog-cli",
+   "bom-ref": "cargo/name@posthog-cli"
+  },
+  {
+   "type": "library",
+   "name": "version",
+   "version": "0.18.9",
+   "purl": "pkg:cargo/version@0.18.9",
+   "bom-ref": "cargo/version@0.18.9"
+  },
+  {
+   "type": "library",
+   "name": "description",
+   "version": "The command line interface for PostHog \ud83e\udd94",
+   "purl": "pkg:cargo/description@The command line interface for PostHog \ud83e\udd94",
+   "bom-ref": "cargo/description@The command line interface for PostHog \ud83e\udd94"
+  },
+  {
+   "type": "library",
+   "name": "homepage",
+   "version": "https://posthog.com",
+   "purl": "pkg:cargo/homepage@https://posthog.com",
+   "bom-ref": "cargo/homepage@https://posthog.com"
+  },
+  {
+   "type": "library",
+   "name": "license",
+   "version": "MIT",
+   "purl": "pkg:cargo/license@MIT",
+   "bom-ref": "cargo/license@MIT"
+  },
+  {
+   "type": "library",
+   "name": "edition",
+   "version": "2021",
+   "purl": "pkg:cargo/edition@2021",
+   "bom-ref": "cargo/edition@2021"
+  },
+  {
+   "type": "library",
+   "name": "repository",
+   "version": "https://github.com/PostHog/posthog",
+   "purl": "pkg:cargo/repository@https://github.com/PostHog/posthog",
+   "bom-ref": "cargo/repository@https://github.com/PostHog/posthog"
+  },
+  {
+   "type": "library",
+   "name": "readme",
+   "version": "README.md",
+   "purl": "pkg:cargo/readme@README.md",
+   "bom-ref": "cargo/readme@README.md"
+  },
+  {
+   "type": "library",
+   "name": "path",
+   "version": "src/main.rs",
+   "purl": "pkg:cargo/path@src/main.rs",
+   "bom-ref": "cargo/path@src/main.rs"
+  },
+  {
+   "type": "library",
+   "name": "clap",
+   "version": "4.5.31",
+   "purl": "pkg:cargo/clap@4.5.31",
+   "bom-ref": "cargo/clap@4.5.31"
+  },
+  {
+   "type": "library",
+   "name": "dirs",
+   "version": "6.0.0",
+   "purl": "pkg:cargo/dirs@6.0.0",
+   "bom-ref": "cargo/dirs@6.0.0"
+  },
+  {
+   "type": "library",
+   "name": "dunce",
+   "version": "1.0.5",
+   "purl": "pkg:cargo/dunce@1.0.5",
+   "bom-ref": "cargo/dunce@1.0.5"
+  },
+  {
+   "type": "library",
+   "name": "inquire",
+   "version": "0.7.5",
+   "purl": "pkg:cargo/inquire@0.7.5",
+   "bom-ref": "cargo/inquire@0.7.5"
+  },
+  {
+   "type": "library",
+   "name": "chrono",
+   "version": "0.4.42",
+   "purl": "pkg:cargo/chrono@0.4.42",
+   "bom-ref": "cargo/chrono@0.4.42"
+  },
+  {
+   "type": "library",
+   "name": "posthog-symbol-data",
+   "version": "0.5.0",
+   "purl": "pkg:cargo/posthog-symbol-data@0.5.0",
+   "bom-ref": "cargo/posthog-symbol-data@0.5.0"
+  },
+  {
+   "type": "library",
+   "name": "walkdir",
+   "version": "2.5.0",
+   "purl": "pkg:cargo/walkdir@2.5.0",
+   "bom-ref": "cargo/walkdir@2.5.0"
+  },
+  {
+   "type": "library",
+   "name": "globset",
+   "version": "0.4",
+   "purl": "pkg:cargo/globset@0.4",
+   "bom-ref": "cargo/globset@0.4"
+  },
+  {
+   "type": "library",
+   "name": "ratatui",
+   "version": "0.29.0",
+   "purl": "pkg:cargo/ratatui@0.29.0",
+   "bom-ref": "cargo/ratatui@0.29.0"
+  },
+  {
+   "type": "library",
+   "name": "crossterm",
+   "version": "0.28.1",
+   "purl": "pkg:cargo/crossterm@0.28.1",
+   "bom-ref": "cargo/crossterm@0.28.1"
+  },
+  {
+   "type": "library",
+   "name": "tui-textarea",
+   "version": "0.7.0",
+   "purl": "pkg:cargo/tui-textarea@0.7.0",
+   "bom-ref": "cargo/tui-textarea@0.7.0"
+  },
+  {
+   "type": "library",
+   "name": "sourcemap",
+   "version": "9.1.2",
+   "purl": "pkg:cargo/sourcemap@9.1.2",
+   "bom-ref": "cargo/sourcemap@9.1.2"
+  },
+  {
+   "type": "library",
+   "name": "proguard",
+   "version": "5.6.2",
+   "purl": "pkg:cargo/proguard@5.6.2",
+   "bom-ref": "cargo/proguard@5.6.2"
+  },
+  {
+   "type": "library",
+   "name": "magic_string",
+   "version": "0.3.4",
+   "purl": "pkg:cargo/magic_string@0.3.4",
+   "bom-ref": "cargo/magic_string@0.3.4"
+  },
+  {
+   "type": "library",
+   "name": "miette",
+   "version": "7.5.0",
+   "purl": "pkg:cargo/miette@7.5.0",
+   "bom-ref": "cargo/miette@7.5.0"
+  },
+  {
+   "type": "library",
+   "name": "serde_json",
+   "version": "1.0.140",
+   "purl": "pkg:cargo/serde_json@1.0.140",
+   "bom-ref": "cargo/serde_json@1.0.140"
+  },
+  {
+   "type": "library",
+   "name": "reqwest",
+   "version": "0.12.14",
+   "purl": "pkg:cargo/reqwest@0.12.14",
+   "bom-ref": "cargo/reqwest@0.12.14"
+  },
+  {
+   "type": "library",
+   "name": "anyhow",
+   "version": "1.0.97",
+   "purl": "pkg:cargo/anyhow@1.0.97",
+   "bom-ref": "cargo/anyhow@1.0.97"
+  },
+  {
+   "type": "library",
+   "name": "serde",
+   "version": "1.0.219",
+   "purl": "pkg:cargo/serde@1.0.219",
+   "bom-ref": "cargo/serde@1.0.219"
+  },
+  {
+   "type": "library",
+   "name": "serde_yaml",
+   "version": "0.9",
+   "purl": "pkg:cargo/serde_yaml@0.9",
+   "bom-ref": "cargo/serde_yaml@0.9"
+  },
+  {
+   "type": "library",
+   "name": "colored",
+   "version": "3.0",
+   "purl": "pkg:cargo/colored@3.0",
+   "bom-ref": "cargo/colored@3.0"
+  },
+  {
+   "type": "library",
+   "name": "regex",
+   "version": "1.12",
+   "purl": "pkg:cargo/regex@1.12",
+   "bom-ref": "cargo/regex@1.12"
+  },
+  {
+   "type": "library",
+   "name": "tracing",
+   "version": "0.1.41",
+   "purl": "pkg:cargo/tracing@0.1.41",
+   "bom-ref": "cargo/tracing@0.1.41"
+  },
+  {
+   "type": "library",
+   "name": "uuid",
+   "version": "1.16.0",
+   "purl": "pkg:cargo/uuid@1.16.0",
+   "bom-ref": "cargo/uuid@1.16.0"
+  },
+  {
+   "type": "library",
+   "name": "thiserror",
+   "version": "2.0.12",
+   "purl": "pkg:cargo/thiserror@2.0.12",
+   "bom-ref": "cargo/thiserror@2.0.12"
+  },
+  {
+   "type": "library",
+   "name": "tracing-subscriber",
+   "version": "0.3.19",
+   "purl": "pkg:cargo/tracing-subscriber@0.3.19",
+   "bom-ref": "cargo/tracing-subscriber@0.3.19"
+  },
+  {
+   "type": "library",
+   "name": "posthog-rs",
+   "version": "0.24.0",
+   "purl": "pkg:cargo/posthog-rs@0.24.0",
+   "bom-ref": "cargo/posthog-rs@0.24.0"
+  },
+  {
+   "type": "library",
+   "name": "sha2",
+   "version": "0.10.9",
+   "purl": "pkg:cargo/sha2@0.10.9",
+   "bom-ref": "cargo/sha2@0.10.9"
+  },
+  {
+   "type": "library",
+   "name": "urlencoding",
+   "version": "2.1.3",
+   "purl": "pkg:cargo/urlencoding@2.1.3",
+   "bom-ref": "cargo/urlencoding@2.1.3"
+  },
+  {
+   "type": "library",
+   "name": "url",
+   "version": "2",
+   "purl": "pkg:cargo/url@2",
+   "bom-ref": "cargo/url@2"
+  },
+  {
+   "type": "library",
+   "name": "rayon",
+   "version": "1.11.0",
+   "purl": "pkg:cargo/rayon@1.11.0",
+   "bom-ref": "cargo/rayon@1.11.0"
+  },
+  {
+   "type": "library",
+   "name": "similar",
+   "version": "2.7",
+   "purl": "pkg:cargo/similar@2.7",
+   "bom-ref": "cargo/similar@2.7"
+  },
+  {
+   "type": "library",
+   "name": "open",
+   "version": "5",
+   "purl": "pkg:cargo/open@5",
+   "bom-ref": "cargo/open@5"
+  },
+  {
+   "type": "library",
+   "name": "zip",
+   "version": "2.2",
+   "purl": "pkg:cargo/zip@2.2",
+   "bom-ref": "cargo/zip@2.2"
+  },
+  {
+   "type": "library",
+   "name": "tempfile",
+   "version": "3",
+   "purl": "pkg:cargo/tempfile@3",
+   "bom-ref": "cargo/tempfile@3"
+  },
+  {
+   "type": "library",
+   "name": "zstd",
+   "version": "0.13",
+   "purl": "pkg:cargo/zstd@0.13",
+   "bom-ref": "cargo/zstd@0.13"
+  },
+  {
+   "type": "library",
+   "name": "symbolic",
+   "version": "12.12",
+   "purl": "pkg:cargo/symbolic@12.12",
+   "bom-ref": "cargo/symbolic@12.12"
+  },
+  {
+   "type": "library",
+   "name": "plist",
+   "version": "1",
+   "purl": "pkg:cargo/plist@1",
+   "bom-ref": "cargo/plist@1"
+  },
+  {
+   "type": "library",
+   "name": "libc",
+   "version": "0.2",
+   "purl": "pkg:cargo/libc@0.2",
+   "bom-ref": "cargo/libc@0.2"
+  },
+  {
+   "type": "library",
+   "name": "test-log",
+   "version": "0.2.17",
+   "purl": "pkg:cargo/test-log@0.2.17",
+   "bom-ref": "cargo/test-log@0.2.17"
+  },
+  {
+   "type": "library",
+   "name": "unstable_features",
+   "version": "forbid",
+   "purl": "pkg:cargo/unstable_features@forbid",
+   "bom-ref": "cargo/unstable_features@forbid"
+  },
+  {
+   "type": "library",
+   "name": "macro_use_extern_crate",
+   "version": "forbid",
+   "purl": "pkg:cargo/macro_use_extern_crate@forbid",
+   "bom-ref": "cargo/macro_use_extern_crate@forbid"
+  },
+  {
+   "type": "library",
+   "name": "let_underscore_drop",
+   "version": "deny",
+   "purl": "pkg:cargo/let_underscore_drop@deny",
+   "bom-ref": "cargo/let_underscore_drop@deny"
+  },
+  {
+   "type": "library",
+   "name": "non_ascii_idents",
+   "version": "deny",
+   "purl": "pkg:cargo/non_ascii_idents@deny",
+   "bom-ref": "cargo/non_ascii_idents@deny"
+  },
+  {
+   "type": "library",
+   "name": "trivial_casts",
+   "version": "deny",
+   "purl": "pkg:cargo/trivial_casts@deny",
+   "bom-ref": "cargo/trivial_casts@deny"
+  },
+  {
+   "type": "library",
+   "name": "trivial_numeric_casts",
+   "version": "deny",
+   "purl": "pkg:cargo/trivial_numeric_casts@deny",
+   "bom-ref": "cargo/trivial_numeric_casts@deny"
+  },
+  {
+   "type": "library",
+   "name": "unit_bindings",
+   "version": "deny",
+   "purl": "pkg:cargo/unit_bindings@deny",
+   "bom-ref": "cargo/unit_bindings@deny"
+  },
+  {
+   "type": "library",
+   "name": "inherits",
+   "version": "release",
+   "purl": "pkg:cargo/inherits@release",
+   "bom-ref": "cargo/inherits@release"
+  },
+  {
+   "type": "library",
+   "name": "debug",
+   "version": "line-tables-only",
+   "purl": "pkg:cargo/debug@line-tables-only",
+   "bom-ref": "cargo/debug@line-tables-only"
+  },
+  {
+   "type": "library",
+   "name": "lto",
+   "version": "thin",
+   "purl": "pkg:cargo/lto@thin",
+   "bom-ref": "cargo/lto@thin"
+  },
+  {
+   "type": "library",
+   "name": "npm-package",
+   "version": "cli",
+   "purl": "pkg:cargo/npm-package@cli",
+   "bom-ref": "cargo/npm-package@cli"
+  },
+  {
+   "type": "library",
+   "name": "github.com/charmbracelet/bubbles",
+   "version": "v0.20.0",
+   "purl": "pkg:golang/github.com/charmbracelet/bubbles@v0.20.0",
+   "bom-ref": "go/github.com/charmbracelet/bubbles@v0.20.0"
+  },
+  {
+   "type": "library",
+   "name": "github.com/charmbracelet/bubbletea",
+   "version": "v1.2.4",
+   "purl": "pkg:golang/github.com/charmbracelet/bubbletea@v1.2.4",
+   "bom-ref": "go/github.com/charmbracelet/bubbletea@v1.2.4"
+  },
+  {
+   "type": "library",
+   "name": "github.com/charmbracelet/lipgloss",
+   "version": "v1.0.0",
+   "purl": "pkg:golang/github.com/charmbracelet/lipgloss@v1.0.0",
+   "bom-ref": "go/github.com/charmbracelet/lipgloss@v1.0.0"
+  },
+  {
+   "type": "library",
+   "name": "github.com/posthog/posthog-go",
+   "version": "v1.27.0",
+   "purl": "pkg:golang/github.com/posthog/posthog-go@v1.27.0",
+   "bom-ref": "go/github.com/posthog/posthog-go@v1.27.0"
+  },
+  {
+   "type": "library",
+   "name": "github.com/andybalholm/brotli",
+   "version": "v1.1.1",
+   "purl": "pkg:golang/github.com/andybalholm/brotli@v1.1.1",
+   "bom-ref": "go/github.com/andybalholm/brotli@v1.1.1"
+  },
+  {
+   "type": "library",
+   "name": "github.com/atotto/clipboard",
+   "version": "v0.1.4",
+   "purl": "pkg:golang/github.com/atotto/clipboard@v0.1.4",
+   "bom-ref": "go/github.com/atotto/clipboard@v0.1.4"
+  },
+  {
+   "type": "library",
+   "name": "github.com/aymanbagabas/go-osc52/v2",
+   "version": "v2.0.1",
+   "purl": "pkg:golang/github.com/aymanbagabas/go-osc52/v2@v2.0.1",
+   "bom-ref": "go/github.com/aymanbagabas/go-osc52/v2@v2.0.1"
+  },
+  {
+   "type": "library",
+   "name": "github.com/charmbracelet/x/ansi",
+   "version": "v0.4.5",
+   "purl": "pkg:golang/github.com/charmbracelet/x/ansi@v0.4.5",
+   "bom-ref": "go/github.com/charmbracelet/x/ansi@v0.4.5"
+  },
+  {
+   "type": "library",
+   "name": "github.com/charmbracelet/x/term",
+   "version": "v0.2.1",
+   "purl": "pkg:golang/github.com/charmbracelet/x/term@v0.2.1",
+   "bom-ref": "go/github.com/charmbracelet/x/term@v0.2.1"
+  },
+  {
+   "type": "library",
+   "name": "github.com/erikgeiser/coninput",
+   "version": "v0.0.0-20211004153227-1c3628e74d0f",
+   "purl": "pkg:golang/github.com/erikgeiser/coninput@v0.0.0-20211004153227-1c3628e74d0f",
+   "bom-ref": "go/github.com/erikgeiser/coninput@v0.0.0-20211004153227-1c3628e74d0f"
+  },
+  {
+   "type": "library",
+   "name": "github.com/goccy/go-json",
+   "version": "v0.10.6",
+   "purl": "pkg:golang/github.com/goccy/go-json@v0.10.6",
+   "bom-ref": "go/github.com/goccy/go-json@v0.10.6"
+  },
+  {
+   "type": "library",
+   "name": "github.com/google/uuid",
+   "version": "v1.6.0",
+   "purl": "pkg:golang/github.com/google/uuid@v1.6.0",
+   "bom-ref": "go/github.com/google/uuid@v1.6.0"
+  },
+  {
+   "type": "library",
+   "name": "github.com/hashicorp/golang-lru/v2",
+   "version": "v2.0.7",
+   "purl": "pkg:golang/github.com/hashicorp/golang-lru/v2@v2.0.7",
+   "bom-ref": "go/github.com/hashicorp/golang-lru/v2@v2.0.7"
+  },
+  {
+   "type": "library",
+   "name": "github.com/lucasb-eyer/go-colorful",
+   "version": "v1.2.0",
+   "purl": "pkg:golang/github.com/lucasb-eyer/go-colorful@v1.2.0",
+   "bom-ref": "go/github.com/lucasb-eyer/go-colorful@v1.2.0"
+  },
+  {
+   "type": "library",
+   "name": "github.com/mattn/go-isatty",
+   "version": "v0.0.20",
+   "purl": "pkg:golang/github.com/mattn/go-isatty@v0.0.20",
+   "bom-ref": "go/github.com/mattn/go-isatty@v0.0.20"
+  },
+  {
+   "type": "library",
+   "name": "github.com/mattn/go-localereader",
+   "version": "v0.0.1",
+   "purl": "pkg:golang/github.com/mattn/go-localereader@v0.0.1",
+   "bom-ref": "go/github.com/mattn/go-localereader@v0.0.1"
+  },
+  {
+   "type": "library",
+   "name": "github.com/mattn/go-runewidth",
+   "version": "v0.0.16",
+   "purl": "pkg:golang/github.com/mattn/go-runewidth@v0.0.16",
+   "bom-ref": "go/github.com/mattn/go-runewidth@v0.0.16"
+  },
+  {
+   "type": "library",
+   "name": "github.com/muesli/ansi",
+   "version": "v0.0.0-20230316100256-276c6243b2f6",
+   "purl": "pkg:golang/github.com/muesli/ansi@v0.0.0-20230316100256-276c6243b2f6",
+   "bom-ref": "go/github.com/muesli/ansi@v0.0.0-20230316100256-276c6243b2f6"
+  },
+  {
+   "type": "library",
+   "name": "github.com/muesli/cancelreader",
+   "version": "v0.2.2",
+   "purl": "pkg:golang/github.com/muesli/cancelreader@v0.2.2",
+   "bom-ref": "go/github.com/muesli/cancelreader@v0.2.2"
+  },
+  {
+   "type": "library",
+   "name": "github.com/muesli/termenv",
+   "version": "v0.15.2",
+   "purl": "pkg:golang/github.com/muesli/termenv@v0.15.2",
+   "bom-ref": "go/github.com/muesli/termenv@v0.15.2"
+  },
+  {
+   "type": "library",
+   "name": "github.com/rivo/uniseg",
+   "version": "v0.4.7",
+   "purl": "pkg:golang/github.com/rivo/uniseg@v0.4.7",
+   "bom-ref": "go/github.com/rivo/uniseg@v0.4.7"
+  },
+  {
+   "type": "library",
+   "name": "golang.org/x/sync",
+   "version": "v0.10.0",
+   "purl": "pkg:golang/golang.org/x/sync@v0.10.0",
+   "bom-ref": "go/golang.org/x/sync@v0.10.0"
+  },
+  {
+   "type": "library",
+   "name": "golang.org/x/sys",
+   "version": "v0.27.0",
+   "purl": "pkg:golang/golang.org/x/sys@v0.27.0",
+   "bom-ref": "go/golang.org/x/sys@v0.27.0"
+  },
+  {
+   "type": "library",
+   "name": "golang.org/x/text",
+   "version": "v0.21.0",
+   "purl": "pkg:golang/golang.org/x/text@v0.21.0",
+   "bom-ref": "go/golang.org/x/text@v0.21.0"
+  }
+ ],
+ "source": {
+  "git": {
+   "head": null,
+   "url": null,
+   "sha_unverified": true,
+   "note": "contamination removed; resolve via GitHub API before quoting"
+  }
+ }
+}
